@@ -39,7 +39,7 @@ if (casper.cli.args.length < 1) {
 }
 
 // キャプチャーを撮る間隔
-var waitTime = 3000;
+var waitTime = 2000;
 
 // コマンドラインから指定されたBasic認証のIDとPassword
 var basicId = casper.cli.options.id;
